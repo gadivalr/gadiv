@@ -105,21 +105,21 @@ nav ul {
   display: flex;
 }
 
-nav ul li {
+nav ul  {
   margin-right: 20px;
 }
 
-nav ul li:last-child {
+nav ul :last-child {
   margin-right: 0;
 }
 
-nav ul li a {
+nav ul  a {
   color: #444;
   text-decoration: none;
   font-size: 18px;
 }
 
-nav ul li a:hover {
+nav ul  a:hover {
   color: #f69c55;
 }
 
@@ -164,3 +164,11 @@ nav ul li a:hover {
 .card a:hover {
   background-color: #1a3c57;
 }
+.footer {
+  background-color: #333333;
+  color: #ffffff;
+  padding: 20px;
+  margin-top: 40px;
+  }
+
+  

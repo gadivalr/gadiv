@@ -1,6 +1,7 @@
 
 /* Estilos para el header */
 /* Estilos para el header */
+
 .header {
 	background-color: #c0c0c0;
 	
@@ -27,26 +28,26 @@
 	display: block;
 	width: 100px;
 }
-.nav {
-	display: none;
+nav ul {
+  display: flex;
 }
-.nav ul {
-	list-style: none;
-	margin: 0;
-	padding: 0;
-	display: flex;
+
+nav ul  {
+  margin-right: 20px;
 }
-.nav li {
-	margin-left: 20px;
+
+nav ul :last-child {
+  margin-right: 0;
 }
-.nav a {
-	color: #333333;
-	text-decoration: none;
-	font-weight: bold;
-	transition: all 0.3s ease-in-out;
+
+nav ul  a {
+  color: #444;
+  text-decoration: none;
+  font-size: 18px;
 }
-.nav a:hover {
-	color: #008000;
+
+nav ul  a:hover {
+  color: #f69c55;
 }
 .hamburger {
 	display: block;
@@ -86,7 +87,7 @@
 /* Estilos para el main */
 .main {
 	max-width: 1200px;
-	margin: 100px auto 0;
+	margin: 50px;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
@@ -96,7 +97,7 @@
 .post {
 	flex-basis: 70%;
     border-radius: 15px;
-   
+   margin-top: 0;
 }
 .post-card {
 	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -155,8 +156,8 @@
 }
 .widget img {
 	display: block;
-	margin: 0 auto;
-	width: 80%;
+	margin: auto;
+	width: 50%;
 	max-width: 200px;
 	border-radius: 50%;
 	object-fit: cover;
@@ -171,6 +172,7 @@
 }
 .widget-text {
 	margin-bottom:20px;
+  margin-top: 20px;
 }
 .widget ul {
 list-style: none;
