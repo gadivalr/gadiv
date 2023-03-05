@@ -64,7 +64,7 @@ main section #text {
 main .sec {
   position: relative;
   min-height: 500px;
-  padding: 100px;
+  padding: 60px;
 }
 main .sec .content {
   position: relative;
