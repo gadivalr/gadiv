@@ -57,6 +57,9 @@ nav ul  a:hover {
 	cursor: pointer;
     border-radius: 15px;
 }
+.post img{
+  width: 50%;
+}
 .hamburger span {
 	display: block;
 	width: 100%;
@@ -195,7 +198,7 @@ color: #008000;
 .footer {
 background-color: #333333;
 color: #ffffff;
-padding: 20px;
+padding: 10px;
 margin-top: 40px;
 }
 .footer p {
