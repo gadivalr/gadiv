@@ -29,3 +29,13 @@ gsap.to("#text",{
     },
     y:500
 })
+// const cardTitles = document.querySelectorAll('.card-title');
+
+// cardTitles.forEach(title => {
+//   title.addEventListener('click', () => {
+//     window.open('ejemplo.cl', '_blank');
+//   });
+// });
+function openPage(pageName) {
+    window.location.href = pageName;
+  }
